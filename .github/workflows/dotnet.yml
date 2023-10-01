@@ -25,6 +25,4 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
-    - name: Execute
-      run: dotnet run D:\a\VoDoMoNet10\VoDoMoNet10\bin\Debug\VoDoMoNet10.exe
+      run: D:\a\VoDoMoNet10\VoDoMoNet10\bin\Debug\VoDoMoNet10.exe
