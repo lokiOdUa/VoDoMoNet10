@@ -18,7 +18,7 @@ namespace VoDoMoNet10
 
             testName = "TestGenerateRandomCollection";
 //            List<int> coll1 = cu.GenerateRandomCollection(2, 1, 100500);
-            List<int> coll1 = cu.GenerateRandomCollection(4, 1, 1);
+            List<int> coll1 = cu.GenerateRandomCollection(3, 1, 1);
             if (coll1[0] == coll1[1])
             {
                 Console.WriteLine("{0} in {1} ::: The following values should be different: {2} and {3}", errorMessage, testName, coll1[0], + coll1[1]);
